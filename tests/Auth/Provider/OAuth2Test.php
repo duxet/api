@@ -5,13 +5,13 @@ namespace Dingo\Api\Tests\Auth\Provider;
 use Mockery as m;
 use Dingo\Api\Routing\Route;
 use Illuminate\Http\Request;
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 use Dingo\Api\Auth\Provider\OAuth2;
 use League\OAuth2\Server\ResourceServer;
 use League\OAuth2\Server\Entity\SessionEntity;
 use League\OAuth2\Server\Entity\AccessTokenEntity;
 
-class OAuth2Test extends PHPUnit_Framework_TestCase
+class OAuth2Test extends TestCase
 {
     public function setUp()
     {
